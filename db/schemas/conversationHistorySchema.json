@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "required": ["_id", "conversation", "timestamp"],
+    "properties": {
+      "_id": { "type": "string" },
+      "conversation": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["user_query", "response"],
+          "properties": {
+            "user_query": { "type": "string" },
+            "response": { "type": "string" }
+          }
+        }
+      },
+      "timestamp": { "type": "string", "format": "date-time" }
+    }
+  }

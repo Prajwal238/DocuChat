@@ -1,0 +1,9 @@
+kdbai_client
+pandas
+PyMuPDF
+Pillow
+python-dotenv
+google.generativeai
+pdfplumber
+grpcio==1.60.1
+pymongo
